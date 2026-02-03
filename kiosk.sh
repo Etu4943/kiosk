@@ -1,5 +1,6 @@
 #!/bin/bash
 
+##### Version 0.9.5
 ## Detection pour Wayland
 #SCREENS=$(gdbus call --session \
  # --dest org.gnome.Mutter.DisplayConfig \
