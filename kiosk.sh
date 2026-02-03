@@ -14,7 +14,7 @@ echo "Écrans détectés: $SCREENS"
 
 
 if [ "$SCREENS" -le 1 ]; then
-    MOZ_ENABLE_WAYLAND=0 firefox --kiosk https://brabant-wallon.secourspompier
+    MOZ_ENABLE_WAYLAND=0 firefox --kiosk https://brabant-wallon.secourspompier.be/
 else
     # Lancer les deux profils
     MOZ_ENABLE_WAYLAND=0 firefox -P screen1  --no-remote --class KIOSK1 https://brabant-wallon.secourspompiers.be/ &
